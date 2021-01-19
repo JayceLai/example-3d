@@ -6,20 +6,24 @@
   "_effectAsset": {
     "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319"
   },
-  "_techIdx": 0,
+  "_techIdx": 1,
   "_defines": [
+    {},
+    {},
     {}
   ],
   "_states": [
     {
+      "rasterizerState": {},
+      "depthStencilState": {},
       "blendState": {
         "targets": [
           {}
         ]
-      },
-      "depthStencilState": {},
-      "rasterizerState": {}
-    }
+      }
+    },
+    {},
+    {}
   ],
   "_props": [
     {
@@ -28,7 +32,7 @@
         "r": 0,
         "g": 82,
         "b": 255,
-        "a": 255
+        "a": 136
       },
       "emissive": {
         "__type__": "cc.Color",
@@ -37,6 +41,8 @@
         "b": 15,
         "a": 255
       }
-    }
+    },
+    {},
+    {}
   ]
 }
