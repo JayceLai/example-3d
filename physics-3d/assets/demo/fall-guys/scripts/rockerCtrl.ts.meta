@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "cd5d5bcf-a527-4eeb-9ac4-bf23be5e5ca6",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/demo/fall-guys/scripts/rockerCtrl.js",
+    "importerSettings": 0
+  }
+}

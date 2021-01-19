@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "4e56a897-e621-4591-a330-b5a378f4b686",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/demo/fall-guys/scripts/RigidCharacterTest.js",
+    "importerSettings": 0
+  }
+}

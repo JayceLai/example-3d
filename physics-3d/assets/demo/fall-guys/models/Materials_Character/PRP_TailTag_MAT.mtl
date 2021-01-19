@@ -1,0 +1,46 @@
+{
+  "__type__": "cc.Material",
+  "_name": "PRP_TailTag_MAT",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_ALBEDO_MAP": true,
+      "USE_NORMAL_MAP": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      },
+      "depthStencilState": {}
+    }
+  ],
+  "_props": [
+    {
+      "mainTexture": {
+        "__uuid__": "9737f2c3-0d6e-4176-ae46-1f66831d1f5b@6486c"
+      },
+      "albedoScale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "metallic": 0.400000005960464,
+      "roughness": 0.301511347293854,
+      "normalMap": {
+        "__uuid__": "9737f2c3-0d6e-4176-ae46-1f66831d1f5b@6039b"
+      },
+      "alphaThreshold": 0
+    }
+  ]
+}

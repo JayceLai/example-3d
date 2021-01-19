@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.21",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "70b47220-fb42-4477-a50e-d27ef72e415c",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/demo/fall-guys/scripts/CharacterAI.js",
+    "importerSettings": 0
+  }
+}
