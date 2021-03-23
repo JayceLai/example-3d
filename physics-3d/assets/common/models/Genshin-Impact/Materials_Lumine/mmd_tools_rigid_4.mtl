@@ -1,0 +1,42 @@
+{
+  "__type__": "cc.Material",
+  "_name": "mmd_tools_rigid_4",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "blendState": {
+        "targets": [
+          {
+            "blend": true,
+            "blendSrc": 2,
+            "blendDst": 4,
+            "blendDstAlpha": 4
+          }
+        ]
+      },
+      "depthStencilState": {
+        "depthWrite": false
+      }
+    }
+  ],
+  "_props": [
+    {
+      "mainColor": {
+        "__type__": "cc.Vec4",
+        "x": 0.5607843399047852,
+        "y": 0.9333333373069763,
+        "z": 0.9333333373069763,
+        "w": 1
+      }
+    }
+  ]
+}

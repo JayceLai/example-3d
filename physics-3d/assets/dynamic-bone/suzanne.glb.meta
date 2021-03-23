@@ -1,0 +1,171 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4",
+  "files": [],
+  "subMetas": {
+    "84800": {
+      "importer": "gltf-scene",
+      "uuid": "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@84800",
+      "displayName": "",
+      "id": "84800",
+      "name": "suzanne.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a781f": {
+      "importer": "gltf-mesh",
+      "uuid": "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@a781f",
+      "displayName": "",
+      "id": "a781f",
+      "name": "Suzanne.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e2f26": {
+      "importer": "gltf-animation",
+      "uuid": "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@e2f26",
+      "displayName": "",
+      "id": "e2f26",
+      "name": "ArmatureAction.002.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.9666666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f36f0": {
+      "importer": "gltf-animation",
+      "uuid": "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@f36f0",
+      "displayName": "",
+      "id": "f36f0",
+      "name": "SuzanneAction.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.4666666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9d1d": {
+      "importer": "gltf-skeleton",
+      "uuid": "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@f9d1d",
+      "displayName": "",
+      "id": "f9d1d",
+      "name": "Armature.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 6
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6f33": {
+      "importer": "gltf-material",
+      "uuid": "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@c6f33",
+      "displayName": "",
+      "id": "c6f33",
+      "name": "mat_suzanne.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "ArmatureAction.002",
+        "duration": 2.9666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "ArmatureAction.002",
+            "from": 0,
+            "to": 2.9666666984558105,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "SuzanneAction",
+        "duration": 2.4666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "SuzanneAction",
+            "from": 0,
+            "to": 2.4666666984558105,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@84800",
+    "assetFinder": {
+      "meshes": [
+        "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@a781f"
+      ],
+      "skeletons": [
+        "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@f9d1d"
+      ],
+      "textures": [],
+      "materials": [
+        "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@c6f33"
+      ],
+      "scenes": [
+        "8627d475-0fe7-4007-b3cb-b7ab0dc5fad4@84800"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "animation",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 2,
+    "events": [],
+    "_duration": 3,
+    "_keys": [
+      [
+        0,
+        0.016666666666666666,
+        1,
+        1.0166666666666666,
+        1.65,
+        3
+      ]
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "USE_TRANSLATE"
+        ],
+        "data": {
+          "keys": 0,
+          "values": [
+            true,
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          "easingMethods": {}
+        }
+      }
+    ],
+    "_commonTargets": [],
+    "_hash": 2165726443
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "CASES.LoopMotion"
+  }
+]

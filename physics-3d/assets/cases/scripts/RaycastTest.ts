@@ -59,7 +59,7 @@ export class RaycastTest extends Component {
                     for (let i = 0; i < r.length; i++) {
                         const item = r[i];
                         const modelCom = item.collider.node.getComponent(ModelComponent)!;
-                        modelCom.material = this.rayMaterial;
+                        if (modelCom) modelCom.material = this.rayMaterial;
                     }
                 }
                 break;
@@ -67,7 +67,7 @@ export class RaycastTest extends Component {
                 if (PhysicsSystem.instance.raycastClosest(this._ray, this._mask, this._maxDistance)) {
                     const r = PhysicsSystem.instance.raycastClosestResult;
                     const modelCom = r.collider.node.getComponent(ModelComponent)!;
-                    modelCom.material = this.rayMaterial;
+                    if (modelCom) modelCom.material = this.rayMaterial;
                 }
                 break;
         }

@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Enum } from "cc";
+import { _decorator, Component, Node, Enum, PhysicsSystem } from "cc";
 const { ccclass, property, menu } = _decorator;
 
 enum SupportPhysics {
@@ -19,6 +19,7 @@ export class SupportPhyiscs extends Component {
     support: SupportPhysics = SupportPhysics.AMMO;
 
     start () {
+        if (PhysicsSystem.PHYSICS_PHYSX) return;
         // Your initialization goes here.
         switch (this.support) {
             case SupportPhysics.BUILTIN:

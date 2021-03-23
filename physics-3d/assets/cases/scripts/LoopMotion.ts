@@ -1,4 +1,4 @@
-import { _decorator, Component, Vec3, Quat, Node } from "cc";
+import { _decorator, Component, Vec3, Quat, Node, IVec3Like } from "cc";
 const { menu, ccclass, property } = _decorator;
 
 @ccclass("CASES.LoopMotion")
@@ -6,31 +6,31 @@ const { menu, ccclass, property } = _decorator;
 export class LoopMotion extends Component {
 
     @property
-    readonly USE_TRANSLATE = false;
+    USE_TRANSLATE = false;
 
     @property({ visible: function (this: LoopMotion) { return this.USE_TRANSLATE } })
     readonly deltaMotion = new Vec3();
 
     @property({ visible: function (this: LoopMotion) { return this.USE_TRANSLATE } })
-    readonly USE_LOOP = false;
+    USE_LOOP = false;
 
     @property({ visible: function (this: LoopMotion) { return this.USE_TRANSLATE && this.USE_LOOP } })
     readonly displacement = new Vec3();
 
     @property
-    readonly USE_ROTATION = false;
+    USE_ROTATION = false;
 
     @property({ visible: function (this: LoopMotion) { return this.USE_ROTATION } })
     readonly deltaEuler = new Vec3();
 
     @property
-    readonly USE_SCALE = false;
+    USE_SCALE = false;
 
     @property({ visible: function (this: LoopMotion) { return this.USE_SCALE } })
     readonly deltaScale = new Vec3();
 
     @property({ visible: function (this: LoopMotion) { return this.USE_SCALE } })
-    readonly USE_LOOP_SCALE = false;
+    USE_LOOP_SCALE = false;
 
     @property({ visible: function (this: LoopMotion) { return this.USE_SCALE && this.USE_LOOP_SCALE } })
     readonly scaleLength = new Vec3();
@@ -70,5 +70,10 @@ export class LoopMotion extends Component {
         if (this.USE_ROTATION) {
             this.node.rotate(this._rot, Node.NodeSpace.WORLD);
         }
+    }
+
+    updateDeltaEuler (v: IVec3Like) {
+        Vec3.copy(this.deltaEuler, v);
+        Quat.fromEuler(this._rot, this.deltaEuler.x, this.deltaEuler.y, this.deltaEuler.z);
     }
 }

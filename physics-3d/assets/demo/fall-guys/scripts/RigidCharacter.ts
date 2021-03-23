@@ -100,7 +100,7 @@ export class RigidCharacter extends Component {
         this._collider.on('onCollisionEnter', this.onCollision, this);
         this._collider.on('onCollisionStay', this.onCollision, this);
         this._collider.on('onCollisionExit', this.onCollision, this);
-        if (this.bullet) useCCD(this._rigidBody);
+        // if (this.bullet) useCCD(this._rigidBody);
     }
 
     move (dir: Vec3, speed: number) {
