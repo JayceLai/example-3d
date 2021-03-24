@@ -142,6 +142,7 @@
   },
   {
     "__type__": "cc.StaticLightSettings",
+    "_baked": false,
     "_editorOnly": false,
     "_bakeable": false,
     "_castShadow": false
@@ -1223,10 +1224,10 @@
     },
     "_lrot": {
       "__type__": "cc.Quat",
-      "x": 0.09506959608915508,
-      "y": 0.05303781505589361,
-      "z": 0.0487063677657261,
-      "w": 0.9928627557787691
+      "x": 0.1015686398120258,
+      "y": 0.03918070862129081,
+      "z": 0.187466144554505,
+      "w": 0.9762198154742292
     },
     "_lscale": {
       "__type__": "cc.Vec3",
@@ -1237,9 +1238,9 @@
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
-      "x": 10.642000000000003,
-      "y": 5.544,
-      "z": 6.131000000000002
+      "x": 11.419,
+      "y": 2.374,
+      "z": 21.961
     },
     "_id": "5aQGNuatxMd5sRoBNOHCaB"
   },
@@ -1405,7 +1406,7 @@
       "__id__": 1
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 46
@@ -1565,7 +1566,7 @@
     "node": {
       "__id__": 45
     },
-    "_enabled": true,
+    "_enabled": false,
     "__prefab": null,
     "_id": "df9JuPz1JFCaMabgsG31bY"
   },

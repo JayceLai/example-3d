@@ -1,0 +1,59 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_NORMAL_MAP": true,
+      "USE_ALBEDO_MAP": true,
+      "USE_METALLIC_ROUGHNESS_MAP": true,
+      "USE_ALPHA_TEST": true
+    },
+    {},
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {
+        "cullMode": 0
+      },
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {
+            "blend": true,
+            "blendSrc": 2,
+            "blendDst": 4,
+            "blendDstAlpha": 4
+          }
+        ]
+      }
+    },
+    {},
+    {}
+  ],
+  "_props": [
+    {
+      "roughness": 0.7071067690849304,
+      "mainTexture": {
+        "__uuid__": "7e35f74e-a409-49bc-9a2f-2caaded7de73@6c48a"
+      },
+      "normalMap": {
+        "__uuid__": "bebd6d52-c84f-409b-8b90-5515f27cd401@6c48a"
+      },
+      "pbrMap": {
+        "__uuid__": "093449cf-86ec-452f-afe0-64e24c3e5ff8@6c48a"
+      },
+      "metallicRoughnessMap": {
+        "__uuid__": "d3b177e6-fb28-489b-98eb-9428312f68dc@6c48a"
+      }
+    },
+    {},
+    {}
+  ]
+}

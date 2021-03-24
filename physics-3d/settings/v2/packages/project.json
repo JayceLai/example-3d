@@ -42,7 +42,7 @@
     }
   ],
   "physics": {
-    "fixedTimeStep": 0.01666666,
+    "fixedTimeStep": 0.0166666,
     "useCollsionMatrix": true,
     "defaultMaterial": {
       "friction": 0.6,
@@ -65,6 +65,10 @@
       "0": 5,
       "1": 6,
       "2": 7
+    },
+    "maxSubSteps": 1,
+    "gravity": {
+      "y": -10
     }
   },
   "__version__": "1.0.1",
