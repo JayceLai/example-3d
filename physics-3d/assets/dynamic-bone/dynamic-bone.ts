@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, Vec3, Quat, Enum, Mat4, clamp01, geometry, math, Director, director } from 'cc';
+import { _decorator, Component, Node, Vec3, Quat, Enum, Mat4, clamp01, geometry, math, Director, director, SphereCollider } from 'cc';
 const { ccclass, property, executeInEditMode } = _decorator;
 
 enum EUpdateMode {
@@ -70,8 +70,8 @@ export class DynamicBone extends Component {
     m_Gravity = new Vec3();
     @property
     m_Force = new Vec3();
-    // @property({type:[Collider]})
-    // m_Colliders = 
+    @property({ type: [SphereCollider] })
+    m_Colliders: SphereCollider[] = [];
     @property({ type: [Node] })
     m_Exclusions: Node[] = [];
 
@@ -414,15 +414,23 @@ export class DynamicBone extends Component {
             }
 
             // collide
-            // if (m_Colliders != null) {
-            //     float particleRadius = p.m_Radius * m_ObjectScale;
-            //     for (int j = 0; j < m_Colliders.Count; ++j)
-            //     {
-            //         DynamicBoneColliderBase c = m_Colliders[j];
-            //         if (c != null && c.enabled)
-            //             c.Collide(ref p.m_Position, particleRadius);
-            //     }
-            // }
+            const m_Colliders = this.m_Colliders;
+            if (m_Colliders != null) {
+                const particleRadius = p.m_Radius * this.m_ObjectScale;
+                for (let j = 0; j < m_Colliders.length; ++j) {
+                    const c = m_Colliders[j];
+                    if (c != null && c.enabled) {
+                        const sd = Vec3.squaredDistance(c.node.worldPosition, p.m_Position);
+                        const d2 = particleRadius + c.radius;
+                        const sd2 = d2 * d2;
+                        if (sd < sd2) {
+                            const nd = Vec3.subtract(new Vec3(), p.m_Position, c.node.worldPosition);
+                            nd.normalize();
+                            Vec3.scaleAndAdd(p.m_Position, c.node.worldPosition, nd, d2);
+                        }
+                    }
+                }
+            }
 
             // freeze axis, project to plane 
             if (m_FreezeAxis != EFreezeAxis.None) {

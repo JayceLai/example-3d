@@ -1,6 +1,6 @@
 {
   "__type__": "cc.Material",
-  "_name": "",
+  "_name": "头发",
   "_objFlags": 0,
   "_native": "",
   "_effectAsset": {
@@ -8,10 +8,6 @@
   },
   "_techIdx": 0,
   "_defines": [
-    {
-      "USE_ALBEDO_MAP": true
-    },
-    {},
     {}
   ],
   "_states": [
@@ -19,23 +15,15 @@
       "rasterizerState": {
         "cullMode": 0
       },
-      "depthStencilState": {},
       "blendState": {
         "targets": [
           {}
         ]
-      }
-    },
-    {},
-    {}
+      },
+      "depthStencilState": {}
+    }
   ],
   "_props": [
-    {
-      "mainTexture": {
-        "__uuid__": "c0327432-b892-4908-b63e-1311e3c385bb@6c48a"
-      }
-    },
-    {},
     {}
   ]
 }

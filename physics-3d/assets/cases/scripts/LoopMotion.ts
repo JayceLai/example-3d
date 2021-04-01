@@ -1,8 +1,9 @@
 import { _decorator, Component, Vec3, Quat, Node, IVec3Like } from "cc";
-const { menu, ccclass, property } = _decorator;
+const { menu, ccclass, property, executeInEditMode } = _decorator;
 
 @ccclass("CASES.LoopMotion")
 @menu("cases/LoopMotion")
+@executeInEditMode
 export class LoopMotion extends Component {
 
     @property

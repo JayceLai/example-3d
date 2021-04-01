@@ -1,6 +1,6 @@
 {
   "__type__": "cc.Material",
-  "_name": "",
+  "_name": "裤子",
   "_objFlags": 0,
   "_native": "",
   "_effectAsset": {
@@ -8,10 +8,6 @@
   },
   "_techIdx": 0,
   "_defines": [
-    {
-      "USE_ALBEDO_MAP": true
-    },
-    {},
     {}
   ],
   "_states": [
@@ -19,23 +15,15 @@
       "rasterizerState": {
         "cullMode": 0
       },
-      "depthStencilState": {},
       "blendState": {
         "targets": [
           {}
         ]
-      }
-    },
-    {},
-    {}
+      },
+      "depthStencilState": {}
+    }
   ],
   "_props": [
-    {
-      "mainTexture": {
-        "__uuid__": "bcd244d0-1f3a-4a6a-8202-0f2041ce1b0f@6c48a"
-      }
-    },
-    {},
     {}
   ]
 }

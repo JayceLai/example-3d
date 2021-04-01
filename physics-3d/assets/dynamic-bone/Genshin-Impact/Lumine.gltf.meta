@@ -2903,7 +2903,7 @@
       "userData": {
         "gltfIndex": 0,
         "wrapMode": 2,
-        "sample": 30,
+        "sample": 60,
         "span": {
           "from": 0,
           "to": 1.399999976158142
@@ -3237,6 +3237,7 @@
             "name": "78_15_bone",
             "from": 0,
             "to": 1.399999976158142,
+            "fps": 60,
             "wrapMode": 2
           }
         ]
