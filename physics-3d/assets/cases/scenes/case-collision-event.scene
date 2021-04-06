@@ -142,6 +142,7 @@
   },
   {
     "__type__": "cc.StaticLightSettings",
+    "_baked": false,
     "_editorOnly": false,
     "_bakeable": false,
     "_castShadow": false
@@ -2288,7 +2289,7 @@
       "__id__": 1
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 80
@@ -2403,7 +2404,7 @@
         "__id__": 102
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 108

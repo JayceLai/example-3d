@@ -10,28 +10,40 @@
   "_defines": [
     {
       "USE_INSTANCING": true
-    }
+    },
+    {},
+    {}
   ],
   "_states": [
     {
+      "rasterizerState": {},
+      "depthStencilState": {},
       "blendState": {
         "targets": [
           {}
         ]
-      },
-      "depthStencilState": {},
-      "rasterizerState": {}
-    }
+      }
+    },
+    {},
+    {}
   ],
   "_props": [
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 78,
-        "g": 139,
-        "b": 230,
+        "r": 3,
+        "g": 23,
+        "b": 53,
         "a": 255
+      },
+      "albedoScale": {
+        "__type__": "cc.Vec3",
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
       }
-    }
+    },
+    {},
+    {}
   ]
 }

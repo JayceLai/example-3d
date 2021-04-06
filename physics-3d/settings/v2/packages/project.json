@@ -42,30 +42,31 @@
     }
   ],
   "physics": {
-    "fixedTimeStep": 0.01666666,
+    "fixedTimeStep": 0.0166667,
     "useCollsionMatrix": true,
     "defaultMaterial": {
       "friction": 0.6,
       "restitution": 0.1,
-      "rollingFriction": 0.1
+      "rollingFriction": 0.2
     },
     "autoSimulation": true,
     "useNodeChains": true,
     "collisionGroups": [
       {
         "index": 1,
-        "name": "BIT_1"
+        "name": "RaycastPlane"
       },
       {
         "index": 2,
-        "name": "BIT_2"
+        "name": "Others"
       }
     ],
     "collisionMatrix": {
       "0": 5,
       "1": 6,
       "2": 7
-    }
+    },
+    "maxSubSteps": 1
   },
   "__version__": "1.0.1",
   "script": {
