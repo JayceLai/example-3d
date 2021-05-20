@@ -29,29 +29,6 @@
       ],
       "subMetas": {}
     },
-    "12477": {
-      "importer": "texture",
-      "uuid": "32e2bc5a-99c4-4984-9fec-dea00458e839@12477",
-      "displayName": "",
-      "id": "12477",
-      "name": "PRP_TailTag_NM.png.texture",
-      "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 1,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "32e2bc5a-99c4-4984-9fec-dea00458e839@28b91"
-      },
-      "ver": "1.0.20",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
     "29498": {
       "importer": "gltf-animation",
       "uuid": "32e2bc5a-99c4-4984-9fec-dea00458e839@29498",
@@ -172,23 +149,6 @@
       ],
       "subMetas": {}
     },
-    "85650": {
-      "importer": "gltf-embeded-image",
-      "uuid": "32e2bc5a-99c4-4984-9fec-dea00458e839@85650",
-      "displayName": "",
-      "id": "85650",
-      "name": "PRP_TailTag_AM.png.image",
-      "userData": {
-        "gltfIndex": 0
-      },
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".png",
-        ".json"
-      ],
-      "subMetas": {}
-    },
     "92957": {
       "importer": "gltf-animation",
       "uuid": "32e2bc5a-99c4-4984-9fec-dea00458e839@92957",
@@ -233,46 +193,6 @@
       "imported": true,
       "files": [
         ".bin",
-        ".json"
-      ],
-      "subMetas": {}
-    },
-    "28b91": {
-      "importer": "gltf-embeded-image",
-      "uuid": "32e2bc5a-99c4-4984-9fec-dea00458e839@28b91",
-      "displayName": "",
-      "id": "28b91",
-      "name": "PRP_TailTag_NM.png.image",
-      "userData": {
-        "gltfIndex": 1
-      },
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".png",
-        ".json"
-      ],
-      "subMetas": {}
-    },
-    "7c966": {
-      "importer": "texture",
-      "uuid": "32e2bc5a-99c4-4984-9fec-dea00458e839@7c966",
-      "displayName": "",
-      "id": "7c966",
-      "name": "PRP_TailTag_AM.png.texture",
-      "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 1,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "32e2bc5a-99c4-4984-9fec-dea00458e839@85650"
-      },
-      "ver": "1.0.20",
-      "imported": true,
-      "files": [
         ".json"
       ],
       "subMetas": {}
