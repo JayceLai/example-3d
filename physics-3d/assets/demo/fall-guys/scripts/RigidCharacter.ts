@@ -168,13 +168,14 @@ export class RigidCharacter extends Component {
     updateContactInfo () {
         this._grounded = false;
         this._groundContact = null!;
+        const wp = this.node.worldPosition;
         let maxY = -0.001;
         for (let i = 0; i < this._contacts.length; i++) {
             const c = this._contacts[i];
-            const n = c.normal;
-            if (n.y < 0) continue;
+            const n = c.normal, p = c.point;
+            if (n.y <= 0.0001) continue;
             else {
-                if (n.y > maxY) {
+                if (n.y > maxY && p.y < wp.y - 0.25) {
                     this._grounded = true;
                     maxY = n.y;
                     this._groundContact = c;
