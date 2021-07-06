@@ -1,0 +1,227 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f1d70a57-c699-416c-9b99-dd9663b78cdd",
+  "files": [],
+  "subMetas": {
+    "d52e6": {
+      "importer": "gltf-mesh",
+      "uuid": "f1d70a57-c699-416c-9b99-dd9663b78cdd@d52e6",
+      "displayName": "",
+      "id": "d52e6",
+      "name": "Ch36.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "60e53": {
+      "importer": "gltf-animation",
+      "uuid": "f1d70a57-c699-416c-9b99-dd9663b78cdd@60e53",
+      "displayName": "",
+      "id": "60e53",
+      "name": "walk.com.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.125
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "f1d70a57-c699-416c-9b99-dd9663b78cdd@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "adacb": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f1d70a57-c699-416c-9b99-dd9663b78cdd@adacb",
+      "displayName": "",
+      "id": "adacb",
+      "name": "file2.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "612f0": {
+      "importer": "gltf-embeded-image",
+      "uuid": "f1d70a57-c699-416c-9b99-dd9663b78cdd@612f0",
+      "displayName": "",
+      "id": "612f0",
+      "name": "file4.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e873a": {
+      "importer": "texture",
+      "uuid": "f1d70a57-c699-416c-9b99-dd9663b78cdd@e873a",
+      "displayName": "",
+      "id": "e873a",
+      "name": "file2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f1d70a57-c699-416c-9b99-dd9663b78cdd@adacb"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "91dcf": {
+      "importer": "texture",
+      "uuid": "f1d70a57-c699-416c-9b99-dd9663b78cdd@91dcf",
+      "displayName": "",
+      "id": "91dcf",
+      "name": "file4.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f1d70a57-c699-416c-9b99-dd9663b78cdd@612f0"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d71a0": {
+      "importer": "gltf-material",
+      "uuid": "f1d70a57-c699-416c-9b99-dd9663b78cdd@d71a0",
+      "displayName": "",
+      "id": "d71a0",
+      "name": "Ch36_Body.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "754ac": {
+      "importer": "gltf-scene",
+      "uuid": "f1d70a57-c699-416c-9b99-dd9663b78cdd@754ac",
+      "displayName": "",
+      "id": "754ac",
+      "name": "Standard Walk.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file2",
+        "uri": "f1d70a57-c699-416c-9b99-dd9663b78cdd@adacb"
+      },
+      {
+        "name": "file4",
+        "uri": "f1d70a57-c699-416c-9b99-dd9663b78cdd@612f0"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 1.125,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk.com",
+            "from": 0,
+            "to": 1.125,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "f1d70a57-c699-416c-9b99-dd9663b78cdd@754ac",
+    "assetFinder": {
+      "meshes": [
+        "f1d70a57-c699-416c-9b99-dd9663b78cdd@d52e6"
+      ],
+      "skeletons": [
+        "f1d70a57-c699-416c-9b99-dd9663b78cdd@438fe"
+      ],
+      "textures": [
+        "f1d70a57-c699-416c-9b99-dd9663b78cdd@e873a",
+        "f1d70a57-c699-416c-9b99-dd9663b78cdd@91dcf"
+      ],
+      "materials": [
+        "f1d70a57-c699-416c-9b99-dd9663b78cdd@d71a0"
+      ],
+      "scenes": [
+        "f1d70a57-c699-416c-9b99-dd9663b78cdd@754ac"
+      ]
+    },
+    "animationBakeRate": "30"
+  }
+}
