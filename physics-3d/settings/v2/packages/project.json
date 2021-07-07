@@ -64,5 +64,6 @@
   "script": {
     "useDefineForClassFields": false,
     "allowDeclareFields": false
-  }
+  },
+  "custom_joint_texture_layouts": []
 }

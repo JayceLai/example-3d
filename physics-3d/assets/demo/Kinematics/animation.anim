@@ -1,0 +1,53 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "animation",
+  "_objFlags": 0,
+  "_native": "",
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "events": [],
+  "enableTrsBlending": false,
+  "_duration": 6,
+  "_keys": [
+    [
+      0,
+      3,
+      6
+    ]
+  ],
+  "_stepness": 0,
+  "_curves": [
+    {
+      "modifiers": [
+        "position"
+      ],
+      "data": {
+        "keys": 0,
+        "values": [
+          {
+            "__type__": "cc.Vec3",
+            "x": -0.032,
+            "y": 1.353,
+            "z": 1.369
+          },
+          {
+            "__type__": "cc.Vec3",
+            "x": 1.372,
+            "y": 1.038,
+            "z": 0.778
+          },
+          {
+            "__type__": "cc.Vec3",
+            "x": -0.032,
+            "y": 1.353,
+            "z": 1.369
+          }
+        ],
+        "easingMethods": {}
+      }
+    }
+  ],
+  "_commonTargets": [],
+  "_hash": 1530223310
+}
