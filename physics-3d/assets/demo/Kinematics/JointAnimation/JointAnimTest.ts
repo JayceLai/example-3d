@@ -83,13 +83,15 @@ function IK (jointRoot: Node | Node[], end: Node) {
             const from1 = Math.acos(Vec3.dot(L0, DirN) / L0Len);
             const from2 = Math.acos(Vec3.dot(L1, L0) / (L0Len * L1Len));
             let to = Math.acos((L0LenSqr + LDirSqr - L1LenSqr) / (2 * L0Len * LDir));
-            let rad = Math.abs(from1 - to);
+            // let rad = Math.abs(from1 - to);
+            let rad = from1 - to;
             const axis = Vec3.cross(new Vec3(), L0, DirN).normalize();
             const rot = Quat.fromAxisAngle(new Quat(), axis, rad);
             joints[0].rotate(rot, Node.NodeSpace.WORLD);
 
             to = Math.acos((-L0LenSqr - L1LenSqr + LDirSqr) / (2 * L0Len * L1Len));
-            rad = Math.abs(from2 - to);
+            // rad = Math.abs(from2 - to);
+            rad = from2 - to;
             Vec3.cross(axis, L1, DirN).normalize();
             Quat.fromAxisAngle(rot, axis, rad);
             joints[1].rotate(rot, Node.NodeSpace.WORLD);
