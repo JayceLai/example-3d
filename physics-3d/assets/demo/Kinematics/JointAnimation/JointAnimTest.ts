@@ -1,9 +1,9 @@
 
 import { _decorator, Component, Node, Vec3, Quat, Mat3, math } from 'cc';
-import { ccdIK } from './Kinematics';
-const { ccclass, property } = _decorator;
+const { ccclass, property, executeInEditMode } = _decorator;
 
 @ccclass('JointAnimTest')
+@executeInEditMode
 export class JointAnimTest extends Component {
 
     @property(Node)
